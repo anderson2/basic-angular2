@@ -1,7 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+  selector: 'racing-app',
+  template: `
+    <h1>{{heading}}</h1>
+  `
 })
-export class AppComponent  { name = 'Angular'; }
+export class AppComponent {
+  heading = "Ultra Racing Schedule";
+}
+
