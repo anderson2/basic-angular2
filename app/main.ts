@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 //import { RacesComponent } from './races.component';
 //import { RaceService } from './race.service';
 
+import { AppModule } from './app.module';
 
 @NgModule({
   imports: [ BrowserModule, FormsModule ],
